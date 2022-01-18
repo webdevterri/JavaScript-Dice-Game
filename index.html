@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Terri's Dice Game</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="message">Player 1 Turn</h1>
+      <div class="players">
+        <div id="player1">
+          <h1>
+            Score:
+            <span id="player1Scoreboard">0</span>
+          </h1>
+          <div id="player1Dice" class="dice active">-</div>
+        </div>
+        <div id="player2">
+          <h1>
+            Score:
+            <span id="player2Scoreboard">0</span>
+          </h1>
+          <div id="player2Dice" class="dice">-</div>
+        </div>
+      </div>
+
+      <button id="rollBtn">Roll Dice 🎲</button>
+      <button id="riskBtn">Take a RISK 🎰</button>
+      <button id="gambleBtn">Super Gamble 👀</button>
+      <button id="resetBtn">Reset Game 🔁</button>
+
+      <div class="rules">
+        <h2>Extra Info</h2>
+        <p>The player who reaches the score of 20 first wins!</p>
+        <p>The <span class="bold">Roll Dice button</span> will give you a random number from 1 to 6.</p>
+        <p>
+          The <span class="bold">Take a RISK button</span> will double the number rolled, subtract that
+          amount from our total score, or do nothing.
+        </p>
+        <p>The <span class="bold">Super Gamble button</span> doubles your score or resets your score to 0.</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <!-- On Scrimba, delete the line above and change back to: 
+        <script src="index.pack.js"></script>
+    -->
+  </body>
+</html>
