@@ -1,31 +1,15 @@
-# title(){return this.options.title||this.options.name}
+# Risky Dice | JavaScript Game
+## by webdevterri
+### About
+This repo is my own version of the Dice Game we created in the Scrimba Front End Developers Career Path Course. 
+#### Tech Stack:
+- HTML
+- CSS
+- JavaScript
 
-Quick start:
+### What I added:
+- Take a Risk button
+- Super Gamble button
 
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
-
-## Development
-
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
-
-```
-$ yarn watch # npm run watch
-```
-
-## Supporting Scrimba
-
-Since 2017, we have created over 20 free courses on Scrimba, and we're going to
-continue launching free courses. But to pay our bills, we have to charge once
-in a while. So if you've ever wanted to "give back" to Scrimba, you can do that by buying
-	one of our paid courses
-
-- [Become a professional React developer](https://scrimba.com/course/greact)
-- [The Responsive Web Design Bootcamp](https://scrimba.com/course/gresponsive)
-- [The Ultimate JavaScript Bootcamp](https://scrimba.com/course/gjavascript)
-
-	It would also mean the world to us if you share the courses.  
-
-Happy Coding!
+### Future Updates:
+I have other ideas to make this game even more my own. I will be implementing these features and designs and uploading the updated versions here as I work on them.
